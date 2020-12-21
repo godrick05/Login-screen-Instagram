@@ -137,8 +137,7 @@ estou me refereindo a div responsavel pelo primeiro container da direita*/
     background-image: url(img/botao_apple_store.png);
 }
 /*Conteiner referente ao segundo botão do elento .app-download*/
-.app-download:nth-child(2){
-    margin-left: -100px;
+.app-download:nth-child(2){   
     background-image: url(img/botao_google_play.png);
 }
 /* Fim do bloco responsavel pelos botoes de download*/
