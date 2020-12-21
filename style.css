@@ -40,19 +40,23 @@ fica localizado aalogo, a foto do perfil e as informações de logout,nova inscr
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
-/* Inicio do bloco da primeira coluna*/
+/* Inicio do bloco da primeira coluna (lado esquerdo)*/
 
-/* conteiner da div da primeira coluna*/
+/* conteiner da div da primeira coluna (lado esquerdo) */
 .instagram-phone{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
-/* conteiner da imagem do celular que fica dentro da div da primeira coluna*/
+/* conteiner da imagem do celular que fica dentro da div da primeira coluna (lado esquerdo) */
 .instagram-phone img{
     height: 50rem;
 }
+/* Fim do bloco da primeira coluna (lado esquerdo)*/
+
+/* Inicio do bloco da segunda coluna (lado direito)*/
+
 /* a tag :nth-child(numero do filho dentro do elemento)
 pega os filhos do elemento que no caso o elemento aqui em questão é o group
 então quando eu me refiro a .group:nth-child(1)
@@ -61,13 +65,10 @@ estou me refereindo a div responsavel pelo primeiro container da direita*/
     min-width: 19rem;
 
 }
-/* Fim do bloco da primeira coluna*/
-
-/* Inicio do bloco da segunda coluna*/
 .instagram-continue{
     display: flex;
-    align-items: center; /*horizontal*/
-    justify-content: space-evenly; /*vertical*/
+    align-items: center; 
+    justify-content: space-evenly; 
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -142,7 +143,7 @@ estou me refereindo a div responsavel pelo primeiro container da direita*/
 }
 /* Fim do bloco responsavel pelos botoes de download*/
 
-/*bloco do media queries responsavel pela responsividade */
+/* inicio do bloco do media queries responsavel pela responsividade */
 
 /* Se a tela tem ate 1024px*/
 @media (max-width: 1024px) {
@@ -168,4 +169,5 @@ estou me refereindo a div responsavel pelo primeiro container da direita*/
     .group{
         border: 1px solid  transparent;
     }
+    /* fim do bloco do media queries responsavel pela responsividade */
 }
